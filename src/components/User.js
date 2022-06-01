@@ -14,8 +14,6 @@ const Users = () => {
       {users.map((user) => (
         <div>
           <span key={user.id}>{user.name}</span>
-          {""}
-          {""}
 
           <button onClick={() => addToFriends(user)}>addToFriends</button>
         </div>
