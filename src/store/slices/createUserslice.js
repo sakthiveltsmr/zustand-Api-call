@@ -7,15 +7,16 @@ const createUserSlice = (set, get) => ({
     const res = await axios.get("http://localhost:3000/posts");
     set({ users: await res.data });
   },
-  addToFriends: (user) => {
-    set({
-      friends: [...get().friends, user],
-    });
-  },
-  removeUserFromFriends: (userId) => {
-    set({
-      friends: get().friends.filter((friend) => friend.id !== userId),
-    });
+  // addToFriends: (user) => {
+  //   set({
+  //     friends: [...get().friends, user],
+  //   });
+  // },
+  removeUsers: async (id) => {
+    const res = await axios.delete(`http://localhost:3000/posts/${id}`);
+    // set({
+    //   users: get().users.filter((user) => user.id !== id),
+    // });
   },
   addPost: async () => {
     const res = await axios.post("http://localhost:3000/posts", {
