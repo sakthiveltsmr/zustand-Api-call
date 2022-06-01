@@ -4,7 +4,6 @@ const createPostSlice = (set, get) => ({
   postsFromFriends: [],
   fetchPosts: async () => {
     const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-
     set({ posts: await res.data });
   },
   filterPostsByFriends: () => {

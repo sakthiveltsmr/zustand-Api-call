@@ -5,8 +5,6 @@ import useStore from "../store/useStore";
 const Posts = () => {
   const fetchPosts = useStore((state) => state.fetchPosts);
   const posts = useFriendsPostsReactor();
-  console.log("post:", posts);
-
   React.useEffect(() => {
     fetchPosts();
   }, [fetchPosts]);
