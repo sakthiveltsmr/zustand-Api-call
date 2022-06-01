@@ -1,0 +1,98 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Grand Lucky",
+      "Created_at": "Jan 20, 2022",
+      "Status": "Active",
+      "LastSent": "12 days ago"
+    },
+    {
+      "id": 2,
+      "name": "Tip Top",
+      "Created_at": "Jan 20, 2022",
+      "Status": "Pending",
+      "LastSent": "a week ago"
+    },
+    {
+      "id": 3,
+      "name": "Aeon",
+      "Created_at": "Jan 20, 2022",
+      "Status": "Active",
+      "LastSent": "a day ago"
+    },
+    {
+      "id": 4,
+      "name": "Papaya",
+      "Created_at": "Jan 20, 2022",
+      "Status": "Active",
+      "LastSent": "a moment ago"
+    },
+    {
+      "id": 5,
+      "name": "orange",
+      "created_at": "jun 01 2022",
+      "Status": "Active",
+      "LastSent": "1 day ago"
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "name": "sakthi",
+      "email": "sakthi10@gmail.com",
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "first_name": "Theresa",
+      "last_name": "Webb",
+      "email": "example@gmail.com",
+      "status": "not-subscribed",
+      "last_login": "4 days ago"
+    },
+    {
+      "id": 2,
+      "first_name": "Annette",
+      "last_name": "Black",
+      "email": "example@gmail.com",
+      "status": "subscribed",
+      "last_login": "3 weeks ago"
+    },
+    {
+      "id": 3,
+      "first_name": "Jerome",
+      "last_name": "Bell",
+      "email": "example@gmail.com",
+      "status": "subscribed",
+      "last_login": "1 weeks ago"
+    },
+    {
+      "id": 4,
+      "first_name": "Leslie",
+      "last_name": "Alexander",
+      "email": "example@gmail.com",
+      "status": "not-subscribed",
+      "last_login": "2 days ago"
+    },
+    {
+      "id": 4225456,
+      "first_name": "sakthi",
+      "last_name": "vel",
+      "email": "sakthi@gmail.com",
+      "status": "subscribed",
+      "last_login": "4 days ago"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

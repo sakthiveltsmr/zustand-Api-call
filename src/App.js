@@ -3,9 +3,12 @@ import "./App.css";
 import Users from "./components/User";
 import Posts from "./components/Posts";
 import Friends from "./components/Friends";
+import Inputfield from "./components/inputfield";
 function App() {
   return (
     <div className="App">
+      <Inputfield />
+      <br />
       <Users />
       <Friends />
       <Posts />
